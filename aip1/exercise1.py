@@ -8,6 +8,10 @@ elif shape == 'r':
     width=float(input("Enter the width of the rectangle: "))
     area=(length)*(width)
 elif shape == 'c':
+
+
+
+    
     radius=float(input("Enter the radius of the circle: "))
     area=3.14159265359*(radius)**2
 
