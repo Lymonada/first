@@ -20,6 +20,8 @@ def in_all(a):
         i += 1
     return container
 
+print(in_all())
+
 
 
 
