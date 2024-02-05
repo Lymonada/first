@@ -1,24 +1,5 @@
-mylist = input('Enter a list of words: ')
+from random import *
 
+rand_num = int(randint(4,28))
 
-def function(mylist):
-    dict ={}
-    new_list =[]
-    mylist = mylist.replace('’','').replace(' ','').replace('[','').replace(']','').split(',')
-    for word in mylist:
-        if word not in dict:
-            dict[word] = 1
-        elif word in dict:
-            dict[word] += 1
-        if dict[word] == 3:
-            new_list.append(word)
-            
-    return new_list
-
-print(function(mylist))
-        
-
-    
-    
-
-
+print(f'오프라인 스터디 모임 날짜는 매월 {rand_num}일로 선정되었습니다')
