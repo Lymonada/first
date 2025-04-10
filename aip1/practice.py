@@ -1,5 +1,13 @@
-from random import *
+import sys
+input = sys.stdin.readline
+n = int(input())
 
-rand_num = int(randint(4,28))
+a = []
 
-print(f'오프라인 스터디 모임 날짜는 매월 {rand_num}일로 선정되었습니다')
+for i in range(n):
+    a.append(int(input()))
+
+a = sorted(a)
+
+for i in range (len(a)):
+    print(a[i])

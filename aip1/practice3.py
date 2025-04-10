@@ -1,12 +1,12 @@
-list = input('Enter a list of strings: ')
-new_list = []
+import sys
+input = sys.stdin.readline
 
-def shortened(list):
-    list = list.replace('’', '').replace('[','').replace(']','').replace(' ','').split(',')
-    for word in list:
-        if len(word) > 3:
-            new_list.append(word[-3:])
+A, B = input().split()
 
-    return new_list
+szA, azB = len(A), len(B)
 
-print(shortened(list))
+ans = szA
+
+for start in range()
+
+        

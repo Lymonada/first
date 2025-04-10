@@ -1,4 +1,4 @@
-shape=input("Enter the shape: ")
+shape = input("Enter the shape: ")
 
 if shape == 's':
     side=float(input("Enter the length of the side: "))
